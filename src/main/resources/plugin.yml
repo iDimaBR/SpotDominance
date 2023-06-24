@@ -1,0 +1,5 @@
+name: SpotDominance
+version: '${project.version}'
+main: com.github.idimabr.spotdominance.SpotDominance
+prefix: SpotDominance
+authors: [ iDimaBR ]

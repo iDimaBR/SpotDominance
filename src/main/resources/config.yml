@@ -1,0 +1,29 @@
+Dominance:
+  domain1:
+    region: "regiao"
+    name: "Laboratório Negro"
+    settings:
+      min_members: 2
+      reward_time: 10
+      dominance_time: 20
+      dispute_time: 15
+    rewards:
+      - "give {player} diamond"
+    messages:
+      disputed:
+        - ""
+        - "&f&lDisputa de Área '{name}'"
+        - ""
+        - "  &bAreá dominada pela {old_clan} agora"
+        - "  &bé dominada pelo clan {clan}"
+      dominated:
+        - ""
+        - "&bO Clan '{clan}' dominou área {name}"
+        - "&bPossuem {size} membros dominando"
+        - ""
+      actionbar:
+        dispute: "&c&lALERTA: &cÁrea está em disputa de domínio. Disputa encerrando em {time}s"
+        normal: "&bClan '{clan}' &f[{size}] §bdominará área '{name}' em {time}s"
+        dominated: "&cÁrea '&7{name}&c' está dominada pelo clan &7{clan}&c."
+      reward-receive:
+        - "&7O clan dominador desta área (&f{clan}&7) foi recompensado."
